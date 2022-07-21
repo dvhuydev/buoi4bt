@@ -18,6 +18,9 @@ function smallBig() {
   }
   document.getElementById("result").innerHTML = show;
 }
+smallBig();
+
+
 
 function aiEnter() {
   let user = document.getElementById("user").value;
@@ -35,9 +38,12 @@ function aiEnter() {
 
   document.getElementById("aiResult").innerHTML = hello;
 }
+aiEnter();
+
+
 
 function count() {
-  
+
   let firstNumber = document.getElementById("firstNumber").value * 1;
   let secondNumber = document.getElementById("secondNumber").value * 1;
   let thirdNumber = document.getElementById("thirdNumber").value * 1;
@@ -50,6 +56,9 @@ function count() {
 
   document.getElementById("countNumber").innerHTML = result;
 }
+count();
+
+
 
 function Triangle() {
   let edgeA = document.getElementById("edgeA").value * 1;
@@ -71,5 +80,6 @@ function Triangle() {
     triangleResult = "Normal Triangle";
   }
 
-  document.getElementById("triangle").innerHTML = triangleResult;
+  document.getElementById("triangleShow").innerHTML = triangleResult;
 }
+Triangle();
